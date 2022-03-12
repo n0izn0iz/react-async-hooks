@@ -1,0 +1,24 @@
+{
+  "name": "react-async-hooks",
+  "version": "1.0.0",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "prepublish": "tsc"
+  },
+  "repository": "git@github.com:n0izn0iz/react-async-hooks.git",
+  "author": "Norman Meier <norman@berty.tech>",
+  "license": "MIT",
+  "dependencies": {
+    "react": "^17.0.2"
+  },
+  "devDependencies": {
+    "@react-native-community/eslint-config": "^3.0.1",
+    "@types/react": "^17.0.40",
+    "@typescript-eslint/eslint-plugin": "^5.14.0",
+    "@typescript-eslint/parser": "^5.14.0",
+    "eslint": "^7.0.0",
+    "prettier": "^2.5.1",
+    "typescript": "^4.6.2"
+  }
+}
